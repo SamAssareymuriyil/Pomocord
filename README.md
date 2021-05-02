@@ -20,7 +20,7 @@ Pomocord was built by: [Ayush Vora](http://github.com/ayushtvora/), [Samarth Pat
 
 **Sam Assareymuriyil** was the primary database developer who was involved with creating the Firebase database and authorization.
 
-**Neil Patel** created the Chrome Extension, and aided with the backend for the database.
+**Neil Patel** created the Chrome Extension and aided with the backend for the database.
 
 ## Pomocord Tutorial 
 
