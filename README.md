@@ -14,7 +14,7 @@ Oh, and another thing, Pomocord also cares for your health. Every so often, Pomo
 ## The Team
 Pomocord was built by: [Ayush Vora](http://github.com/ayushtvora/), [Samarth Patel](https://github.com/Samarth1331), [Sam Assareymuriyil](https://github.com/SamAssareymuriyil), and [Neil Patel](https://github.com/Neil-25). 
 
-**Ayush Vora** was the Discord-bot developer who focused on creating all of the bot's functionality using Discord.js and Firebase Admin for Node.js.
+**Ayush Vora** was the Discord-bot developer who focused on creating bot's functionality using Discord.js and Firebase Admin for Node.js.
 
 **Samarth Patel** was the primary frontend developer who focused on creating the beautiful UI for the various pages.
 
