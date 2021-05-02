@@ -3,7 +3,7 @@
 > https://pomocord.netlify.app/
 
 ## Introduction + What is Pomocord? 
-Pomocord is an all-in-one study tool to help you stay on track when you're cramming for an exam, working on an assignment, or even reading a textbook!
+Pomocord is an all-in-one study tool to help you stay on track when you are cramming for an exam, working on an assignment, or even reading a textbook!
 
 Pomocord uses the Pomodoro Technique, a time management method developed by Francesco Cirilo back in the 1980s! This method allows you to divide your work into intervals, each being 25 minutes in length, and a 5 minute break in between. Every interval, you are to focus on doing your work, no procrastinating! But don't worry, every 4 intervals, you are awarded with a 30 minute break! Oh also, no sneaky working while you're on the break!
 
