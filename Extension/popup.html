@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style src = "popup.css">
+      .redirect {
+        background-color: #DD2E44;
+        border-color: white;
+        border-width: 2px;
+        color: white;
+        padding: 4px 10px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 15px;
+        cursor: pointer;
+        font-family: "Segoe UI", Tahoma, sans-serif;
+        font-weight: bold;
+        width:200px;
+        transform: translate(0,40px);
+        align-items: center;
+        margin-bottom: 30px;
+        border-radius: 5px;
+      }
+
+      .toggleOff {
+
+        background-color: #DD2E44;
+        border-color: white;
+        border-width: 2px;
+        color: white;
+        padding: 4px 10px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 15px;
+        margin: 8px 4px;
+        cursor: pointer;
+        font-family: "Segoe UI", Tahoma, sans-serif;
+        font-weight: bold;
+        width:150px;
+        display: flex;
+        margin: auto;
+        transform: translate(0, 10px);
+        margin-bottom: 20px;
+        border-radius: 5px;
+      }
+
+      .toggleOn {
+        background-color: #26b326;
+        border-color: white;
+        border-width: 2px;
+        color: white;
+        padding: 4px 10px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 15px;
+        margin: 8px 4px;
+        cursor: pointer;
+        font-family: "Segoe UI", Tahoma, sans-serif;
+        font-weight: bold;
+        width:150px;
+        display: flex;
+        margin: auto;
+        transform: translate(0, 10px);
+        margin-bottom: 20px;
+        border-radius: 5px;
+      }
+
+      body {
+        background-color: rgb(39, 39, 39);
+      }
+
+      .status {
+        text-align:center;
+      }
+
+      .minutes {
+        text-align: center;
+      }
+
+      .controls {
+        width:200px;
+      }
+
+      h1 {
+        font-family: "Segoe UI", Tahoma, sans-serif;
+        color: white;
+        position: fixed;
+        top: -5px;
+        left: 10px;
+        text-align: center;
+      }
+
+      h2 {
+        color: white
+      }
+
+      .start {
+        position: fixed;
+        top: 13px;
+        right: 10px;
+        transition-duration: 0.2s;
+        border-radius: 5px;
+      }
+
+      .start:hover {
+        background-color: #d64a5d;
+        color:white
+      }
+
+    </style>
+    </head>
+    <body>
+        <section>
+          <h1>Pomocord</h1>
+        </section>
+        <button id = "redirect" class = 'redirect'>To Pomocord Website</button>
+        <h2 id = "status" class = "status"></h2>
+        <h2 id = "minutes" class = "minutes"></h2>
+        <button id="toggle" class = "toggleOn"></button>
+    </body>
+  <script src="popup.js"></script>
+</html>

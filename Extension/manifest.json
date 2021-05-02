@@ -1,0 +1,40 @@
+{
+    "name": "Pomocord",
+    "version": "0.0.1",
+    "description": "Start studying better today!",
+    "manifest_version": 2,
+    "permissions": [
+      "notifications", "storage", "alarms"
+    ],
+    "browser_action": {
+      "default_popup": "./popup.html",
+      "default_title": "Start studying",
+      "default_icon":"./pomocord-icon.png"
+    },
+    
+    "content_scripts": [
+        {
+          "js": ["content.js"],
+          
+          "matches": [
+            "https://*.reddit.com/*", 
+            "https://*.youtube.com/*", 
+            "https://*.twitter.com/*", 
+            "https://*.facebook.com/*", 
+            "https://*.instagram.com/*", 
+            "https://*.netflix.com/*",
+            "https://*.messenger.com/*",
+            "https://*.tumblr.com/*",
+            "https://*.tiktok.com/*",
+            "https://*.pinterest.ca/*",
+            "https://*.disneyplus.com/*",
+            "https://*.twitch.tv/*",
+            "https://*.crunchyroll.com/*",
+            "https://*.amazon.ca/*"
+          ]
+        }
+      ],
+      "background": {
+        "scripts": ["popup.js"]      
+      }
+  }
