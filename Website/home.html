@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Add Tasks</title>
+        <script src="./home.js" defer></script>
+        <link rel="stylesheet" href="home.css" >
+    </head>
+
+    <body onload="start()">
+
+        <section class="navbar">
+            <button class="logout" onclick="logout()">Logout</button><br>
+            <a href="./index.html" class="logo">
+                <img src="https://cdn.discordapp.com/attachments/832679296455540780/838266771403964446/Hnet.com-image_1.png">
+            </a>
+        </section>
+
+        <div class="background"></div>
+            <section class="dabig-timer">
+                <div id="minutes" class="timer">Start a study session.</div>
+                <div id="status" class="session-count"></div>
+                <button id="but" onclick="startTime()"class="start-timer-button">Start Timer</button>
+                <div class="quotes">
+                    <p id="quote"></p>
+                    <p id="author"></p>
+                </div>
+            </section>
+
+        <section class="add-task-section">
+            <div class="list">
+                <h2>Add a task</h2>
+            </div>
+            <div class="subjects" id="tasks">
+            Subject:
+                <select id="subject" onchange="subChange()">
+                    <option value="Math">Math</option>
+                    <option value="English">English</option>
+                    <option value="Physics">Physics</option>
+                    <option value="Chemistry">Chemistry</option>
+                    <option value="Biology">Biology</option>
+                    <option value="Computer Science">Computer Science</option>
+                    <option value="Business">Business</option>
+                    <option value="Geography">Geography</option>
+                    <option value="History">History</option>
+                    <option value="Other">Other</option>
+                </select>
+            </div>
+
+            <div class="new-task">
+                New Task: <input id ="newTask"/>
+                <button id="add" onclick="addTask()">Add Task</button><br>
+            </div>
+        </section>
+
+        <section class="discord">
+            Discord: <input id="disc"/>
+                <button id="dic" onclick="upDisc()">Confirm</button><br>
+        </section>
+
+        <section class="task-list">
+            <div class="da-tasks">
+                <h2>List of tasks</h2>
+            </div>
+            <div id="tsk"></div>
+        </section>
+
+        <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-app.js"></script>
+		<script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-database.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-auth.js"></script>
+    </body>
+</html>

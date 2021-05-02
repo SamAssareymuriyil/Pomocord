@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="./login.js" defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Make every second count.">
+    <meta name="author" content="json derulo">
+    <meta name="theme-color" content="#fb5849">
+    <meta property="og:description" content="Make every second count."/>
+    <meta property="og:title" content="Pomocord" />
+    <meta property="og:site_name" content="Pomocord"/>
+    <meta property="og:image" content="https://cdn.discordapp.com/attachments/833883367178240021/838127111508066344/unknown.png"/>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+
+    <title>Pomocord</title>
+    <link rel="icon" href="https://cdn.discordapp.com/attachments/833883367178240021/837856488071626763/pomocord-icon.png" type="image/icon type">
+<!--
+    
+TemplateMo 558 Klassy Cafe
+
+https://templatemo.com/tm-558-klassy-cafe
+
+-->
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+
+    <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.css">
+
+    <link rel="stylesheet" href="assets/css/templatemo-klassy-cafe.css">
+
+    <link rel="stylesheet" href="assets/css/owl-carousel.css">
+
+    <link rel="stylesheet" href="assets/css/lightbox.css">
+
+    </head>
+    
+    <body>
+    
+    <!-- ***** Preloader Start ***** -->
+    <div id="preloader">
+        <div class="jumper">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>  
+    <!-- ***** Preloader End ***** -->
+    
+    
+    <!-- ***** Header Area Start ***** -->
+    <header class="header-area header-sticky">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <nav class="main-nav">
+                        <!-- ***** Logo Start ***** -->
+                        <a href="index.html" class="logo">
+                            <img src="https://cdn.discordapp.com/attachments/833883367178240021/837856485626740796/pomocord-logo.png" style="width:7cm;height:2cm;" align="klassy cafe html template">
+                        </a>
+                        <!-- ***** Logo End ***** -->
+                        <!-- ***** Menu Start ***** -->
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- ***** Header Area End ***** -->
+
+    <!-- ***** About Area Starts ***** -->
+    <section class="section" id="about">
+        <div class="container">
+            <div class="row"></div>
+                    <div class="left-text-content">
+                        <div class="section-heading">
+                            <h6>About</h6>
+                            <h2>Blocked Sites</h2>
+                        </div>
+                        <p>Below you will find a list of all currently blocked websites, we plan on addidng customization to what websites are blocked in the future.</p>
+                        <ul class="list">
+                            <li><a href="https://www.youtube.com/">Youtube</a></li>
+                            <li><a href="https://twitter.com/">Twitter</a></li>
+                            <li><a href="https://www.facebook.com/">Facebook</a></li>
+                            <li><a href="https://www.instagram.com/">Instagram</a></li>
+                            <li><a href="https://www.netflix.com/">Netflix</a></li>
+                            <li><a href="https://www.tumblr.com/">Tumblr</a></li>
+                            <li><a href="https://www.messenger.com/">Facebook Messenger</a></li>
+                            <li><a href="https://www.tiktok.com/">TikTok</a></li>
+                            <li><a href="https://www.pinterest.ca/">Pinterest</a></li>
+                            <li><a href="https://www.disneyplus.com/">Disney+</a></li>
+                            <li><a href="https://www.twitch.tv/">Twitch</a></li>
+                            <li><a href="https://www.crunchyroll.com/">Crunchyroll</a></li>
+                            <li><a href="https://www.amazon.ca/">Amazon</a></li>
+                        </ul>
+                    </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** About Area Ends ***** -->
+
+    <!-- ***** Reservation Us Area Starts ***** -->
+    
+
+    <!-- jQuery -->
+    <script src="assets/js/jquery-2.1.0.min.js"></script>
+
+    <!-- Bootstrap -->
+    <script src="assets/js/popper.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+
+    <!-- Plugins -->
+    <script src="assets/js/owl-carousel.js"></script>
+    <script src="assets/js/accordions.js"></script>
+    <script src="assets/js/datepicker.js"></script>
+    <script src="assets/js/scrollreveal.min.js"></script>
+    <script src="assets/js/waypoints.min.js"></script>
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <script src="assets/js/imgfix.min.js"></script> 
+    <script src="assets/js/slick.js"></script> 
+    <script src="assets/js/lightbox.js"></script> 
+    <script src="assets/js/isotope.js"></script> 
+    
+    <!-- Global Init -->
+    <script src="assets/js/custom.js"></script>
+    <script>
+
+        $(function() {
+            var selectedClass = "";
+            $("p").click(function(){
+            selectedClass = $(this).attr("data-rel");
+            $("#portfolio").fadeTo(50, 0.1);
+                $("#portfolio div").not("."+selectedClass).fadeOut();
+            setTimeout(function() {
+              $("."+selectedClass).fadeIn();
+              $("#portfolio").fadeTo(50, 1);
+            }, 500);
+                
+            });
+        });
+
+    </script>
+  </body>
+</html>
