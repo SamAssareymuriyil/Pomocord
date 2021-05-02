@@ -54,7 +54,7 @@ Due to the numerous lockdowns and restrictions imposed over the past year due to
 ## Relevant Links
 * [Pomocord](https://pomocord.netlify.app)
 * [GitHub Repository](https://github.com/SamAssareymuriyil/Pomocord)
-* [Devpost Submission]
+* [Devpost Submission](https://devpost.com/software/pomocord)
 * [Bot Invite Link](https://discord.com/oauth2/authorize?client_id=837841547814240266&permissions=8&scope=bot)
 
 ## Languages, Tools and Libraries Used
